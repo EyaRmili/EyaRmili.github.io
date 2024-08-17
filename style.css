@@ -1,0 +1,48 @@
+body{
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.component-body{
+    width:320px ;
+    height: 499px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    padding: 16px 16px 40px 16px;
+    margin: 0;
+
+}
+.component-body .qr-img img{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+.qr-text .title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #1F314F;
+text-align: center;
+padding-top: 24px;
+padding-bottom: 16px;
+}
+.qr-text .text{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #68778D;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+
+}
+.qr-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+}
